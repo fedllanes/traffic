@@ -46,7 +46,7 @@ Some examples of misclassified items are:
 
 ![Mismatches](readme_images/mismatches.png)
 
-Mismatches tend to be very low quality pictures that would be extremely hard to recognize even for a human, with some exceptions that don't appear as difficult. Some pictures appear to be particularly dark, meaning that increasing its brighteness could increase the accuracy
+Mismatches tend to be very low quality pictures that would be extremely hard to recognize even for a human, with some exceptions that don't appear as difficult. Also, some of the pictures appear to be particularly dark, meaning that increasing its brighteness could increase the accuracy.
 
 # Conclusions
 
