@@ -34,9 +34,13 @@ After trying several variations of the CNN, with different parameters, I've foun
 
 The accuracy on the test set is 98.33%, which is pretty good for our simple model and higher than a lot of participants on kaggle.
 
+## Confusion matrix
+
 ![Confusion matrix](readme_images/confusion.png)
 
 The confusion matrix shows us which were the classes that had the most trouble being properly classified.
+
+## Mislabeling
 
 Some examples of misclassified items are: 
 
