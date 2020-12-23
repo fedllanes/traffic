@@ -4,6 +4,8 @@ The following project has as an objective to build a Neural Network capable of p
 
 The model was trained on google collab.
 
+The [jupyter notebook](https://github.com/fedllanes/traffic/blob/master/Traffic.ipynb)
+
 # Dataset
 
 The dataset is divided on the training set and the testing set, with the training set containing 39209 pictures and the test set 12630 pictures, roughly a 75-25 ratio. There are also 43 different classes to which each image can belong to. 
