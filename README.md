@@ -4,7 +4,7 @@ The following project has as an objective to build a Neural Network capable of p
 
 The model was trained on google collab.
 
-The [jupyter notebook](https://github.com/fedllanes/traffic/blob/master/Traffic.ipynb)
+The [Jupyter Notebook](https://github.com/fedllanes/traffic/blob/master/Traffic.ipynb)
 
 # Dataset
 
