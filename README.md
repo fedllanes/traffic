@@ -21,10 +21,12 @@ Histogram of the count of instances for each class:
 
 The images have to be scaled to a 48x48 pixel image, and we need to roll the axis.
 
-
 # Model
 
 I use keras to build the CNN, the CNN used is the following.
+
+![Model](readme_images/CNN.jpeg)
+
 
 After trying several variations of the CNN, with different parameters, I've found this to be the one with the best accuracy on the test data.
 
@@ -32,7 +34,15 @@ After trying several variations of the CNN, with different parameters, I've foun
 
 The accuracy on the test set is 98.33%, which is pretty good for our simple model and higher than a lot of participants on kaggle.
 
-# Mismatches 
+![Confusion matrix](readme_images/confusion.png)
+
+The confusion matrix shows us which were the classes that had the most trouble being properly classified.
+
+Some examples of misclassified items are: 
+
+![Mismatches](readme_images/mismatches.png)
+
+Mismatches tend to be very low quality pictures that would be extremely hard to recognize even for a human, with some exceptions that don't appear as difficult. Some pictures appear to be particularly dark, meaning that increasing its brighteness could increase the accuracy
 
 # Conclusions
 
