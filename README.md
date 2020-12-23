@@ -8,10 +8,10 @@ The model was trained on google collab.
 The dataset is divided on the training set and the testing set, with the training set containing 39209 pictures and the test set 12630 pictures, roughly a 75-25 ratio. There are also 43 different classes to which each image can belong to. 
 
 Pictures for each one of the classes:
-![input](ddd/ddd.jpg)
+![Examples](readme_images/examples.png)
 
 Histogram of the count of instances for each class:
-![input](ddd/ddd.jpg)
+![Histogram](readme_images/hist.png)
 
 # Pre-processing 
 
