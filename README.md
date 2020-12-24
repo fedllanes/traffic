@@ -40,7 +40,7 @@ The accuracy on the test set is 98.33%, which is pretty good for our simple mode
 
 ![Confusion matrix](readme_images/confusion.png)
 
-The confusion matrix shows us which were the classes that had the most trouble being properly classified.
+The confusion matrix shows us which were the classes that had the most trouble being properly classified. These are class 41(End of no passing), 30(Beware of ice/snow), and 21(Double curve).
 
 ## Mislabeling
 
