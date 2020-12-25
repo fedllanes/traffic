@@ -34,6 +34,10 @@ After trying several variations of the CNN, with different parameters, I've foun
 
 # Results
 
+The CNN was trained for 20 epochs, since for more than 20 epochs the model starts overfitting. We ended up with an acc of 0.9986 and a validation accuracy of 0.9976. We can see how the model starts converging after around 10 epochs. Our batch size was 32.
+
+![Acc](readme_images/acc.png)
+
 The accuracy on the test set is 98.33%, which is pretty good for our simple model and higher than a lot of participants on kaggle.
 
 ## Confusion matrix
@@ -50,7 +54,7 @@ Some examples of misclassified items are:
 
 Mismatches tend to be very low quality pictures that would be extremely hard to recognize even for a human, with some exceptions that don't appear as difficult. Also, some of the pictures appear to be particularly dark, meaning that increasing its brighteness could increase the accuracy.
 
-# Conclusions
+# Conclusion
 
 The results obtained were satisfactory, the accuracy wasn't bad at all on the never seen dataset, with over 98% of traffic signs being properly recognized (out of 43 classes). While this is impressive, more could be done to improve the quality of the model.
 
