@@ -62,4 +62,4 @@ Some ideas include:
 
 * Increasing the luminosity of the pictures using opencv.
 
-* Detecting the contours of each traffic sign, and cropping it off, making sure they are all position the same way.
+* Detecting the contours of each traffic sign, and cropping it off, making sure they are all positioned the same way.
